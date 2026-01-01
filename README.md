@@ -1,6 +1,9 @@
 # About
 This script aims to change metadata for albums/music distributed by labels that add their name to the tags. An example is New Standard Elite
 
+### Warning
+This script commits metadata automatically and does not make a backup. I would personally backup any music in case you cant afford to lose it, or don't feel like redownloading ones that could potentially error. 
+
 ### Features
 1. Changes album artist and artist tags to the correct artist
 2. If the album is a split between multiple bands, by default it will make seperate albums for each artist. This is a personal preference thing, and can be toggled off in the config.json file.
