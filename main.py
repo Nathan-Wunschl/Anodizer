@@ -56,5 +56,8 @@ for subdir, dirs, files in os.walk(path):
                     label_check(f)
                     if split:
                         split_check(f)
+                    if str(f['album'] == ""):
+                        f['album'] = str(f["tracktitle"])
+                        f.save()
                 except Exception as e:
                     print(f"Error loading file: {e}")
