@@ -10,7 +10,7 @@ This script commits metadata automatically and does not make a backup. I would p
 3. Artist names will be changed to a titlecased version (ex. PUTRID PILE will change to Putrid Pile)
 4. Singles will append the single title and the word Single to the album tag
 
-# Installation
+# Installation for Binaries
 1. Download Zip file for OS
 2. Unzip to desired location
 3. Edit config.json (if needed)
@@ -18,3 +18,12 @@ This script commits metadata automatically and does not make a backup. I would p
 5. Run the executable
 6. Done!!!
 
+# Running in terminal
+1. Clone this repo
+  ```git clone https://github.com/Nathan-Wunschl/Anodizer/main && cd Anodizer```
+2. Install requirements
+  ```pip install -r requirements.txt```
+3. Edit config.json if desired
+4. If using default config, move music to the music folder within the repo
+5. Run the script!
+  ```python3 main.py```
