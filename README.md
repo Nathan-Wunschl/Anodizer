@@ -20,7 +20,7 @@ This script commits metadata automatically and does not make a backup. I would p
 
 # Running in terminal
 1. Clone this repo
-  ```git clone https://github.com/Nathan-Wunschl/Anodizer/main && cd Anodizer```
+  ```git clone https://github.com/Nathan-Wunschl/Anodizer && cd Anodizer```
 2. Install requirements
   ```pip install -r requirements.txt```
 3. Edit config.json if desired
