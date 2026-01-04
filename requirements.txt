@@ -1,0 +1,9 @@
+altgraph==0.17.5
+macholib==1.16.4
+music-tag==0.4.3
+mutagen==1.47.0
+packaging==25.0
+pyinstaller==6.17.0
+pyinstaller-hooks-contrib==2025.11
+setuptools==80.9.0
+titlecase==2.4.1
