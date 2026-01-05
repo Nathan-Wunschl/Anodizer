@@ -24,6 +24,7 @@ This script commits metadata automatically and does not make a backup. I would p
 2. Install requirements
   ```pip install -r requirements.txt```
 3. Edit config.json if desired
-4. If using default config, move music to the music folder within the repo
-5. Run the script!
+4. Create a folder titled 'music' (all lowercase) in the project directory
+6. If using default config, move music to the music folder within the repo
+7. Run the script!
   ```python3 main.py```
